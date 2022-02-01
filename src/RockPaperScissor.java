@@ -2,13 +2,13 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class RockPaperScissor {
-    Random rand = new Random();
     
-    RockPaperScissor(int game, int seed, Scanner input){    
-        int userWins = 0;
-        int computerWins = 0;
-        int random = seed;
-        int gameNum = game;
+    RockPaperScissor(int gameNum, int seed, Scanner input){    
+        private int userWins = 0;
+        private int computerWins = 0;
+        private int game = gameNum;
+        private Random rand = new Random;
+        private Scanner input = new Scanner(System.in);
     }
 
     public static void greeting(){
