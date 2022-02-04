@@ -147,7 +147,7 @@ public class RockPaperScissor {
         int choice = rand.nextInt(max - min) + min;
         return choice;
     }
-    
+
     public int getWinner(){
         if(userWins == 3){
             return 1;
