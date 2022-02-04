@@ -16,7 +16,7 @@ public class RockPaperScissorRunner {
         
         RockPaperScissor game1 = new RockPaperScissor(1, 0, input);
        
-        /**game1.playRound();   
+        game1.playRound();   
         
         if(game1.getWinner() == 1)
             System.out.println("Congratulations! You beat me!");
@@ -44,8 +44,5 @@ public class RockPaperScissorRunner {
         
 
         System.out.println("Thank you for playing today!");
-    }**/
     }
-
 }
-    
