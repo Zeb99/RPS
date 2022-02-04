@@ -3,9 +3,7 @@
  * Spring 2022
  * Programming Assignment 1 Runner File
  */
-
 import java.util.Scanner;
-
 public class RockPaperScissorRunner {
     
     public static void main(String[] args) {
@@ -42,7 +40,6 @@ public class RockPaperScissorRunner {
         else
             System.out.println("Sorry! You didn't win!");
         
-
         System.out.println("Thank you for playing today!");
     }
 }
